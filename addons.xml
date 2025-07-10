@@ -1,0 +1,18 @@
+<addons>
+  <addon id="plugin.video.meuaddon" version="1.0.0" name="Meu Addon" provider-name="SeuNome">
+    <requires>
+      <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Addon simples para testes</summary>
+      <description>Um addon básico para aprender a criar repositório</description>
+      <platform>all</platform>
+    </extension>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </addon>
+</addons>
